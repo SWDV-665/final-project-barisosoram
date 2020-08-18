@@ -1,7 +1,5 @@
 {
-  "name": "HappyRealEstate",
-  "integrations": {
-    "capacitor": {}
-  },
+  "name": "Real-Estate-Angula",
+  "integrations": {},
   "type": "angular"
 }
