@@ -9,6 +9,8 @@ import { HttpModule } from '@angular/http';
 import { AddListingFormComponent } from './add-listing-form/add-listing-form.component';
 import { UtilService } from './util.service';
 import { SortByPipe } from './sort-by.pipe';
+import { CommonModule } from '@angular/common';
+
 
 @NgModule({
   declarations: [
@@ -21,7 +23,8 @@ import { SortByPipe } from './sort-by.pipe';
   imports: [
     BrowserModule,
     HttpModule,
-    FormsModule
+    FormsModule,
+    CommonModule
   ],
   providers: [CribsService, UtilService],
   bootstrap: [AppComponent]
